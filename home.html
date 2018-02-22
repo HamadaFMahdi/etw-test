@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000000">
+  <title>ETW</title>
+
+  <!-- CSS  -->
+  <link rel="shortcut icon" href="img/etw-icon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Orbitron:500" rel="stylesheet" />
+  <!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+  <!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
+  <link href="css/home.css" type="text/css" rel="stylesheet" media="screen,projection" />
+<script>
+    (function(d, w, c) {
+        w.ChatraID = 'xxi9ZjaGawYyh9aQK';
+        var s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
+        + '//call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+</script>
+</head>
+
+<body>
+  <nav class="black" role="navigation">
+    <div class="container nav-wrapper">
+      <a style="padding-top:10px;"id="logo-container" href="home.html" class="brand-logo"><img
+                src="img/logo3.svg"
+                alt="triangle with all three sides equal"
+                height="45px"
+                width="130px" /></a>
+      <ul style="font-family: 'Orbitron', sans-serif;" id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="waves-effect waves-light" href="home.html">Home</a></li>
+        <li><a class="waves-effect waves-light" href="aboutus.html">About us</a></li>
+        <li><a class="waves-effect waves-light noSelect dropdown-trigger1" href="#!" data-target="dropdown1">Our Initiatives<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="waves-effect waves-light" href="contactus.html">Contact us</a></li>
+        <li><a class="waves-effect waves-light" style="color: rgb(204,204,0);" href="#">Our Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul id="slide-out" class="sidenav">
+    <a class="center" href="home.html"><img
+            src="img/logo-white.svg"
+            alt="triangle with all three sides equal"
+            height="150px"
+            width="250px" /></a>
+    <ul class="right hide-on-med-and-down">
+
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      <ul id="dropdown1" class="dropdown-content">
+
+  <li><a class="waves-effect black-text" href="educate.html">ETW Educate</a></li>
+  <li class="divider"></li>
+  <li><a class="waves-effect black-text" href="#!">ETW School<span class="new badge" data-badge-caption="Coming Soon iA">
+  </span></a></li>
+  <li class="divider"></li>
+  <li><a class="waves-effect black-text" href="#!">ETW Active</a></li>
+  <li class="divider"></li>
+  <li><a class="waves-effect black-text" href="#!">ETW Events<span class="new badge" data-badge-caption="Coming Soon iA">
+  </span></a></li>
+</ul>
+    </ul>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect waves-black" href="home.html">Home</a></li>
+
+<li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect waves-black" href="aboutus.html">About us</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li class="no-padding">
+    <ul class="collapsible collapsible-accordion">
+      <li>
+        <a class="collapsible-header waves-effect waves-black">Our Initiatives<i class="material-icons">arrow_drop_down</i></a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a class="waves-effect waves-black" href="educate.html">ETW Educate</a></li>
+            <li><a class="waves-effect waves-black" href="#!">ETW School  <span class="new badge" data-badge-caption="Coming Soon iA">
+            </span>
+</a></li>
+            <li><a class="waves-effect waves-black" href="#!">ETW Active</a></li>
+            <li><a class="waves-effect waves-black" href="#!">ETW Events<span class="new badge" data-badge-caption="Coming Soon iA">
+            </span></a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect waves-black" href="#">Contact us</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a style="color: rgb(204,204,0);" class="waves-effect waves-green" href="#">Our Blog</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    </ul>
+    <a id="men" href="#" data-target="slide-out" class="sidenav-trigger"><i style="font-size:2em;" class="material-icons">menu</i></a>
+
+
+  <!-- <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="#test1">Test 1</a></li>
+        <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+        <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+        <li class="tab"><a href="#test4">Test 4</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">JavaScript</a></li>
+  </ul> -->
+
+  <div id="top-banner" class="b-lazy" src="img/small.jpg" data-src="img/img3-min.jpeg">
+    <div class="center container">
+      <div id="type" class=" row">
+        <!-- <div id="typed-strings">
+          <h4 class="header">It's time for change...</h4>
+          <h4 class="header">Well,^500 we have a vision...</h4>
+        </div> -->
+
+        <span id="type-reveal1" class="header"></span>
+        <div id="space">
+          <span id="type-reveal2"></span>
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <!-- <div id="index-banner">
+    <div class="section no-pad-bot"> -->
+
+  <div class="container">
+
+    <h1 id="vision-text" class="header center white-text-lighten-2">Our Vision</h1>
+
+
+
+  </div>
+  <!-- </div>
+
+    <div class="parallax"><img src="img/img7.png" alt="Unsplashed background img 1"></div>
+  </div> -->
+
+
+
+  <div class="info-boxes section">
+
+    <!--   Icon Section   -->
+    <div class="row">
+      <div id="icon-block-left" class="col s12 m4">
+        <div class="icon-block">
+          <!-- first instance of font awasome - attribution: https://fontawesome.com -->
+          <h2 class="goldish center"><i class="fas fa-users"></i></h2>
+          <h5 class="goldish center">Develop leaders</h5>
+
+          <p class="white-text padding center light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis veritatis, doloremque, debitis dicta atque veniam animi dolorum fugit iure id.</p>
+        </div>
+      </div>
+
+      <div id="icon-block-middle" class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center goldish"><i class="fas fa-book"></i></h2>
+          <h5 class="goldish center">Develop intellectuals</h5>
+
+          <p class="white-text padding center light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, earum reiciendis laborum similique voluptas debitis esse quod eligendi dolorum tempora.</p>
+        </div>
+      </div>
+
+      <div id="icon-block-right" class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center goldish"><i class="far fa-user"></i></h2>
+          <h5 class="goldish center">Develop personalities</h5>
+
+          <p class="white-text padding center light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore enim, repellendus non molestias reiciendis similique illo officiis sequi consequatur possimus.</p>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="pad-top center">
+
+      <a id="find-out-more-btn" href="aboutus.html" class="waves-effect waves-light btn"><i class="material-icons right">info</i>Find out more about us</a>
+    </div>
+
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h1 class="para-text header center white-text-lighten-2">Our Initiatives</h1>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img class="b-lazy" src="img/small.jpg" data-src="img/img2.png" alt="alt-text" /></div>
+  </div>
+
+  <div class="init-boxes section">
+
+    <div class="init-boxes-pad row">
+
+      <div id="init-edu" class="col s12 m6">
+        <div class="init-block">
+          <div class="card z-depth-5 small">
+            <div class="card-image waves-effect waves-block waves-light">
+              <!-- <img class="activator" src="img/img4.jpeg"> -->
+              <img class="activator b-lazy" src="img/small.jpg" data-src="img/img4.jpeg" alt="alt-text" />
+            </div>
+            <div class="card-content">
+              <span class="card-title noSelect activator black-text text-darken-4">ETW Educate <i class="material-icons right">info</i></span>
+              <p>Click the image for more information</p>
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title noSelect black-text text-darken-4">ETW Educate<i class="material-icons right">close</i></span>
+              <p> velit fugit, atque qui repellat! Veritatis aspernatur sed et tempora, ut quis atque corrupti exercitationem commodi esse.</p>
+              <p><a href="#">Click here to find out more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="init-sch" class="col s12 m6">
+        <div class="init-block">
+          <div class="card z-depth-5 small">
+            <div class="card-image waves-effect waves-block waves-orange">
+              <!-- <img class="activator" src="img/img5.jpeg"> -->
+              <img class="activator b-lazy" src="img/small.jpg" data-src="img/img5.jpeg" alt="alt-text" />
+            </div>
+            <div class="card-content">
+              <span class="card-title noSelect activator black-text text-darken-4"> ETW School<i class="material-icons right">info</i></span>
+              <p>Click the image for more information</p>
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title noSelect black-text text-darken-4">ETW School<i class="material-icons right">close</i></span>
+              <p>nt totam similique maxime, voluptate illum veritatis. Repudiandae excepturi cumque accusamus quis, rerum atque eius illum impedit ullam.</p>
+              <p><a  href="#!">Click here to find out more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="init-sport" class="col s12 m6">
+        <div class="init-block">
+          <div class="card z-depth-5 small">
+            <div class="card-image waves-effect waves-block waves-green">
+              <!-- <img class="activator" src="img/img6.jpeg"> -->
+              <img class="activator b-lazy" src="img/small.jpg" data-src="img/img6.jpeg" alt="alt-text" />
+            </div>
+            <div class="card-content">
+              <span class="card-title noSelect activator black-text text-darken-4">ETW Active<i class="material-icons right">info</i></span>
+              <p>Click the image for more information</p>
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title noSelect black-text text-darken-4">ETW Active<i class="material-icons right">close</i></span>
+              <p>ente placeat suscipit vel officia saepe, minus! Enim, molestias! Laboriosam, laudantium! Perspiciatis ratione similique voluptate iusto, eum!</ p>
+                <p><a href="#">Click here to find out more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="init-events" class="col s12 m6">
+        <div class="init-block">
+          <div class="card z-depth-5 small">
+            <div class="card-image waves-effect waves-block waves-red">
+              <!-- <img class="activator" src="img/img7.jpeg"> -->
+              <img class="activator b-lazy" src="img/small.jpg" data-src="img/img7.jpeg" alt="alt-text" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator noSelect black-text text-darken-4">ETW Events<i class="material-icons right">info</i></span>
+              <p>Click the image for more information</p>
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title black-text noSelect text-darken-4">ETW Events<i class="material-icons right">close</i></span>
+              <p>s, vel voluptates, necessitatibus delectus dignissimos saepe soluta dolorem cumque adipisci quis laboriosam facilis? Fuga, voluptate</p>
+              <p><a href="#">Click here to find out more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+  <!-- <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h1 class="para-text header center white-text-lighten-2">Contact Us</h1>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/img8.jpeg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="contact-us section">
+
+    <div class="init-boxes-pad row">
+
+      <div id="init-edu" class="white-text col s12 m6">
+        HI
+      </div>
+      <div id="init-sch" class="white-text col s12 m6">
+      hi
+      </div>
+
+
+
+    </div>
+
+  </div> -->
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">ETW</h5>
+          <p class="white-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod est, magnam dignissimos alias doloribus inventore omnis. Asperiores ad libero, nisi.</p>
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Social</h5>
+          <ul>
+            <li><a href="https://www.facebook.com/etw.info/" target="_blank"><i class="fab fa-facebook-square" ></i></a></li>
+            <li><a href="https://twitter.com/etw_connect" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UC_GM1yp8y13RZzwXkdocqMQ?view_as=public" target="_blank"><i class="fab fa-youtube-square"></i> </a></li>
+          </ul>
+          <!-- Begin MailChimp Signup Form -->
+
+          <!-- <div id="mc_embed_signup">
+            <form action="https://facebook.us17.list-manage.com/subscribe/post?u=c9284818e72576d456b1546d5&amp;id=51a859036d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c9284818e72576d456b1546d5_51a859036d" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+            </form>
+          </div> -->
+
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <!-- <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">hi</a>
+      </div> -->
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- <script src="js/materialize.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/init.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
+
+</body>
+
+</html>
