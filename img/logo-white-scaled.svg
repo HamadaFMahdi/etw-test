@@ -1,0 +1,32 @@
+<svg width="580" height="230" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="232" id="canvas_background" fill="#ffffff"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke-width="10" x1="97.5" y1="34.5" x2="97.5" y2="97.499996" id="svg_2" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="144.5" y1="-12.499999" x2="144.5" y2="90.499994" id="svg_4" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(90 144.50000000000003,39.000000000000014) " stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="124.5" y1="61.499999" x2="124.5" y2="124.499996" id="svg_5" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(90 124.5,93.00000000000001) " stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="96.5" y1="128.5" x2="96.5" y2="191.499996" id="svg_9" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="124" y1="101" x2="124" y2="164.999996" id="svg_10" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(90 123.99999999999999,133.00000000000003) " stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="144" y1="134.999998" x2="144" y2="238.999994" id="svg_11" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(90 144,187.00000000000003) " stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="274.5" y1="-11.499999" x2="274.5" y2="89.499995" id="svg_13" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(90 274.50000000000006,39.00000000000002) " stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="274.5" y1="34.500002" x2="274.5" y2="192.499983" id="svg_14" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="355.5" y1="33.5" x2="355.5" y2="131.499996" id="svg_15" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="381.5" y1="44.5" x2="381.5" y2="142.499996" id="svg_16" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000000" transform="rotate(45 381.49999999999994,93.50000000000001) "/>
+  <line fill="none" stroke-width="10" x1="345.5" y1="89.5" x2="345.5" y2="148.499999" id="svg_17" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#ffffff"/>
+  <line fill="none" stroke-width="10" x1="371.5" y1="87.5" x2="371.5" y2="146.499999" id="svg_18" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#ffffff" transform="rotate(46 371.49999999999994,116.99999999999997) "/>
+  <line fill="none" stroke-width="10" x1="444.5" y1="45.5" x2="444.5" y2="143.499996" id="svg_19" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(135 444.5,94.50000000000001) " stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="470.5" y1="34.5" x2="470.5" y2="132.499996" id="svg_20" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="454.5" y1="88.5" x2="454.5" y2="147.499999" id="svg_21" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#ffffff" transform="rotate(-46 454.49999999999994,118.00000000000001) "/>
+  <line fill="none" stroke-width="10" x1="480.5" y1="81.5" x2="480.5" y2="140.499999" id="svg_22" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#ffffff"/>
+  <line fill="none" stroke-width="10" x1="384.25" y1="113.346189" x2="384.25" y2="202.153802" id="svg_23" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(45 384.25,157.75000000000003) " stroke="#000000"/>
+  <line fill="none" stroke-width="10" x1="440.25" y1="113.346189" x2="440.25" y2="202.153802" id="svg_26" stroke-linejoin="undefined" stroke-linecap="undefined" transform="rotate(135 440.25000000000006,157.74999999999997) " stroke="#000000"/>
+ </g>
+</svg>

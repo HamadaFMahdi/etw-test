@@ -1,0 +1,512 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+/* body{
+  background-color: black;
+} */
+
+h2 {
+  font-family:'Orbitron', sans-serif;
+
+}
+
+
+
+
+nav ul li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidenav-overlay {
+  z-index: 9;
+}
+
+html, body {
+  min-height: 100% !important;
+  height: 100%;
+}
+
+nav ul a, nav .brand-logo {
+  color: white;
+
+}
+
+
+#dropdown1{
+  background-color: white;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+.noSelect:focus{
+  outline:0;
+}
+.dropdown-trigger:focus {
+  outline: 0;
+}
+
+.b-lazy {
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+  max-width: 100%;
+  opacity: 0;
+}
+
+.b-lazy.b-loaded {
+  opacity: 1;
+}
+
+.pad-top {
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.typed-cursor {
+  font-size: 1em;
+  -webkit-animation: flickerAnimation 1s infinite;
+  -moz-animation: flickerAnimation 1s infinite;
+  -o-animation: flickerAnimation 1s infinite;
+  animation: flickerAnimation 1s infinite;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav {
+  z-index: 100;
+
+}
+
+
+p {
+  line-height: 2rem;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h5 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.sidenav-trigger {
+  color: black;
+}
+
+.sidenav {
+  z-index: 1000;
+}
+
+.sidenav a {
+  font-family: 'Orbitron', sans-serif;
+}
+
+#men{
+  z-index: 1000;
+  padding-left: 0;
+  padding-top: 0;
+  }
+
+@media only screen and (min-width: 993px) {
+  #men{
+    z-index: 1000;
+    display: none;
+  }
+}
+
+
+#type {
+  padding-top: 25%;
+  padding-top: 12em;
+}
+
+#top-banner-aboutus {
+
+  height: 45%;
+  /* background-image: url(../img/img3-min.jpeg); */
+  color: white;
+  z-index: 1;
+  /* background: -webkit-linear-gradient(180deg, rgb(0, 0, 0), rgb(28, 28, 28));
+  background: linear-gradient(180deg, rgb(0, 0, 0), rgb(28, 28, 28)); */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+37,1c1c1c+73,1c1c1c+91 */
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(top, #000000 0%, #000000 37%, #1c1c1c 73%, #1c1c1c 91%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #000000 0%,#000000 37%,#1c1c1c 73%,#1c1c1c 91%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #000000 0%,#000000 37%,#1c1c1c 73%,#1c1c1c 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#1c1c1c',GradientType=0 ); /* IE6-9 */
+
+  border-bottom: 1px solid black;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index:-1;
+}
+
+#space {
+  margin-top: 6em;
+}
+
+#type-reveal-aboutus {
+  font-size: 4em;
+  font-weight: bold;
+  color white;
+}
+
+#type-reveal2 {
+  font-size: 3em;
+  color: rgb(204, 204, 0);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.header {
+  font-family: 'Orbitron', sans-serif;
+  line-height: 50px;
+}
+
+.parallax-container {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+#vision-text {
+  font-size: 3em;
+  letter-spacing: 10px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.section {
+  background-color: rgb(28,28,28);
+  color: white;
+  position: relative;
+  z-index: 1;
+  height:auto;
+}
+
+#quote{
+  width:45%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+blockquote{
+  border-left: 1px solid rgb(204,204,0);
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(204,204,0);
+
+
+}
+
+@media only screen and (max-width: 992px) {
+  #quote{
+    width:90%;
+    margin-top: 0%;
+  }
+}
+
+/* .info-boxes:before {
+  background-color: black;
+  background: inherit;
+  top: 0;
+  content: '';
+  display: absolute;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(176deg);
+  transform-origin: 0;
+  z-index: -1;
+  } */
+#blend{
+  background: -webkit-linear-gradient(-180deg, rgb(28, 28, 28), rgb(204, 204, 0));
+  background: linear-gradient(-180deg, rgb(28, 28, 28), rgb(204, 204, 0));
+  height:1%;
+}
+
+
+.para-text {
+  /* margin-top: -0.6em; */
+  letter-spacing: 5px;
+  font-size: 3em;
+}
+
+
+.init-boxes {
+  padding-top: 5em;
+  padding-bottom: 8em;
+  background-color: white;
+  color: black;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.init-boxes:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: absolute;
+  height: 10%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(3deg);
+  transform-origin: 0%;
+  z-index: -1;
+}
+
+.init-boxes-pad {
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-title {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.padding {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.goldish {
+  color: rgb(204, 204, 0);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.blackish{
+  color: black;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.contact-us {
+  padding-top: 5em;
+  padding-bottom: 8em;
+  background-color: black;
+  color: black;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid white;
+}
+
+.contact-us:before {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: absolute;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(3deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.init-block {
+  padding: 20px 35px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#contact-us-btn {
+  background-color: white;
+  color: black;
+  margin-top: 2em;
+  border-radius: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5%;
+
+}
+
+#contact-us-btn:hover {
+  background-color: black;
+  color:rgb(204,204,0);
+}
+
+
+
+.fa-facebook-square {
+  color: #3b5998;
+  font-size: 2em;
+}
+
+.fa-twitter-square {
+  color: #c0deed;
+  font-size: 2em;
+}
+
+.fa-youtube-square {
+  color: #cc181e;
+  font-size: 2em;
+}
+
+#mc_embed_signup {
+  background: black;
+  color: white;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+.scroll-tab-title{
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(204,204,0);
+}
+
+#test1{
+  /* background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%); */
+  background-color: white;
+  height: auto;
+}
+#test7{
+  height: 1000px;
+}
+.nav-wrapper ul li a{
+  color: black;
+  font-weight: 900;
+}
+.tab:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tab:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.tabs {
+  background-color: rgba(204,204,0,0.5);
+}
+.tabs .indicator {
+  background-color: black;
+}
+.middle{
+  height: auto;
+  border: 1px solid rgb(204,204,0);
+}
+.title-border-bottom{
+  border-bottom: 1px solid rgb(204,204,0);
+}
+.title-border-bottom-black{
+  border-bottom: 1px solid black;
+}
+
+.collapsible-body{
+background-color: rgba(255,255,255,1);
+}
+.slider{
+  margin-top: 10px;
+
+}
+.caption{
+  line-height: 35px;;
+}
+.testimonials{
+  font-size: 20px;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.test-btn{
+  margin-top: 10%;
+}
+#faq{
+  margin-top: 10%;
+}
+.pad{
+  padding-left: 5%;
+  padding-right: 5%;
+}

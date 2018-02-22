@@ -1,0 +1,39 @@
+
+html, body, .block {
+    height: 100%;
+  }
+.pin-top {
+  position: relative;
+}
+
+.pin-bottom {
+  position: relative;
+}
+
+.pinned {
+  position: fixed !important;
+}
+footer{
+  border-top: 1px solid black;
+  font-family: 'Orbitron', sans-serif;
+}
+
+footer.page-footer {
+  margin-top: 1px;
+
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+  font-size: 2em;
+}
+
+.fa-twitter-square {
+  color: #c0deed;
+  font-size: 2em;
+}
+
+.fa-youtube-square {
+  color: #cc181e;
+  font-size: 2em;
+}
