@@ -1,11 +1,7 @@
 (function($) {
   $(function() {
 
-    if($( document ).width()<1000){
-    setTimeout(function() {
-      M.toast({html: 'Try swiping left and right between tabs. Also, drag the tab menu to the left to reveal the other tabs.', classes: 'rounded'});
-    }, 500);
-    }
+
 
     $(".dropdown-trigger1").dropdown({ hover: false });
     $('.sidenav').sidenav();
@@ -209,7 +205,7 @@ var collapsibleElem = document.querySelector('.collapsible');
 var collapsibleInstance = M.Collapsible.init(collapsibleElem);
 var tabElem = document.querySelector('.tabs');
 var instance = M.Tabs.init(tabElem, {
-  swipeable: true
+  swipeable: false
 });
 var faElem = document.querySelector('.collapsible.expandable');
 var instance = M.Collapsible.init(faElem, {

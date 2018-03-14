@@ -16,45 +16,57 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
   <!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
   <link href="css/educate.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Start of Async Drift Code -->
   <script>
-      (function(d, w, c) {
-          w.ChatraID = 'xxi9ZjaGawYyh9aQK';
-          var s = d.createElement('script');
-          w[c] = w[c] || function() {
-              (w[c].q = w[c].q || []).push(arguments);
-          };
-          s.async = true;
-          s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
-          + '//call.chatra.io/chatra.js';
-          if (d.head) d.head.appendChild(s);
-      })(document, window, 'Chatra');
+  !function() {
+    var t;
+    if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+    t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+    t.factory = function(e) {
+      return function() {
+        var n;
+        return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e, n, o, i;
+      e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+      n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+    });
+  }();
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('a6fssv2ahrnh');
   </script>
+  <!-- End of Async Drift Code -->
 </head>
+
 <body>
 
-<nav class="nav-extended white" role="navigation">
-  <a id="men" href="#" data-target="slide-out" class="sidenav-trigger"><i style="font-size:2em;" class="material-icons">menu</i></a>
+  <nav class="nav-extended white" role="navigation">
+    <a id="men" href="#" data-target="slide-out" class="sidenav-trigger"><i style="font-size:2em;" class="material-icons">menu</i></a>
 
-  <div class="container nav-wrapper">
-    <a style="padding-top:10px;"id="logo-container" href="home.html" class="brand-logo"><img
+    <div class="container nav-wrapper">
+      <a style="padding-top:10px;" id="logo-container" href="home.html" class="brand-logo"><img
               src="img/logo-white-scaled.svg"
               alt="triangle with all three sides equal"
               height="45px"
               width="130px" /></a>
-    <ul style="font-family: 'Orbitron', sans-serif;" id="nav-mobile" class=" right hide-on-med-and-down">
+      <ul style="font-family: 'Orbitron', sans-serif;" id="nav-mobile" class=" right hide-on-med-and-down">
         <li><a class="waves-effect" href="home.html">Home</a></li>
         <li><a class="waves-effect" href="aboutus.html">About us</a></li>
         <li><a class="waves-effect noSelect dropdown-trigger1" href="#!" data-target="dropdown1">Our Initiatives<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a class="waves-effect" href="#">Contact us</a></li>
         <li><a class="waves-effect waves-light" style="color: rgb(204,204,0);" href="#">Our Blog</a></li>
-    </ul>
-  </div>
-  <div style="border-bottom:1px solid rgb(204,204,0);"class="container nav-content">
+      </ul>
+    </div>
+    <div style="border-bottom:1px solid rgb(204,204,0);" class="container nav-content">
       <ul class="tabs">
-        <li class="tab"><a class="waves-effect" style="color:black; font-family: 'Orbitron', sans-serif; font-size:12px;"href="#test1">Academia</a></li>
-        <li class="tab"><a class="waves-effect" style="color:black; font-family: 'Orbitron', sans-serif; font-size:12px;"href="#test2">Tarbiya</a></li>
-        <li class="tab"><a class="waves-effect" style="color:black; font-family: 'Orbitron', sans-serif; font-size:12px;"href="#test3">Online Classes</a></li>
-        <li class="tab"><a class="waves-effect" style="color:black; font-family: 'Orbitron', sans-serif; font-size:12px;"href="#test4">Life Skills</a></li>
+        <li class="tab"><a class="waves-effect" style="color:black; font-family: 'Orbitron', sans-serif; font-size:12px;" href="#test1">Academia</a></li>
+        <li class="tab"><a class="waves-effect" style="color:black; font-family: 'Orbitron', sans-serif; font-size:12px;" href="#test2">Tarbiya</a></li>
+        <li class="tab"><a class="waves-effect" style="color:black; font-family: 'Orbitron', sans-serif; font-size:12px;" href="#test3">Online Classes</a></li>
+        <li class="tab"><a class="waves-effect" style="color:black; font-family: 'Orbitron', sans-serif; font-size:12px;" href="#test4">Life Skills</a></li>
 
       </ul>
     </div>
@@ -74,7 +86,7 @@
             </div>
           </div>
 
-          <div  class="col s12 m4">
+          <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="black-text center"><i class="fas fa-flask"></i></i></h2>
               <h5 class="black-text center">Science</h5>
@@ -83,7 +95,7 @@
             </div>
           </div>
 
-          <div  class="col s12 m4">
+          <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="black-text center"><i class="fas fa-edit"></i></h2>
               <h5 class="black-text center">English</h5>
@@ -96,66 +108,112 @@
 
         </div>
         <h2 class="pad black-text left-align">hjkhjhjk</h2>
-        <p class="pad left-align black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione voluptas deserunt tempora non magni natus eaque voluptatum, ad dolore magnam numquam alias adipisci suscipit, iure rerum vero hic eligendi atque veritatis quibusdam deleniti sit facilis nisi! Dolores modi, totam asperiores autem vel. Veniam, non voluptatem ea ad provident eius nobis aspernatur explicabo assumenda aliquam odio rerum veritatis, consectetur iste quam, fugit rem culpa eaque ex earum id ducimus! Nihil nulla quasi maxime error delectus fugiat aut voluptatem autem laboriosam sint ipsa nesciunt, veniam expedita dignissimos, temporibus sit quibusdam modi mollitia laborum veritatis saepe ducimus totam at molestiae. Doloribus, velit similique.</p>
+        <p class="pad left-align black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione voluptas deserunt tempora non magni natus eaque voluptatum, ad dolore magnam numquam alias adipisci suscipit, iure rerum vero hic eligendi atque veritatis quibusdam deleniti sit
+          facilis nisi! Dolores modi, totam asperiores autem vel. Veniam, non voluptatem ea ad provident eius nobis aspernatur explicabo assumenda aliquam odio rerum veritatis, consectetur iste quam, fugit rem culpa eaque ex earum id ducimus! Nihil nulla
+          quasi maxime error delectus fugiat aut voluptatem autem laboriosam sint ipsa nesciunt, veniam expedita dignissimos, temporibus sit quibusdam modi mollitia laborum veritatis saepe ducimus totam at molestiae. Doloribus, velit similique.</p>
 
       </div>
-      <div id="test2" class="center"><div class="title-border-bottom"><span class="scroll-tab-title">Tarbiya</span></div></div>
-      <div id="test3" class="center"><div class="title-border-bottom"><span class="scroll-tab-title">Online Classes</span></div></div>
-      <div id="test4" class="center"><div class="title-border-bottom"><span class="scroll-tab-title">Life Skills</span></div></div>
+      <div id="test2" class="center">
+        <div class="title-border-bottom"><span class="scroll-tab-title">Tarbiya</span></div>
+
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <!-- first instance of font awasome - attribution: https://fontawesome.com -->
+              <h2 class="black-text center"><i class="fas fa-book"></i></h2>
+              <h5 class="black-text center">Maths</h5>
+
+              <p class="black-text padding center light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, cupiditate.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="black-text center"><i class="fas fa-circle"></i></i></h2>
+              <h5 class="black-text center">hi</h5>
+
+              <p class="black-text padding center light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quam.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="black-text center"><i class="fas fa-square"></i></h2>
+              <h5 class="black-text center">lol</h5>
+
+              <p class="black-text padding center light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, officiis.</p>
+            </div>
+          </div>
+
+
+
+        </div>
+        <h2 class="pad black-text left-align">hjkhjhjk</h2>
+        <p class="pad left-align black-text">Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eaque iure a labore! Similique animi fuga nulla temporibus consequuntur commodi.ipsum dolor sit amet, consectetur adipisicing elit. Ratione voluptas deserunt tempora non magni natus eaque voluptatum, ad dolore magnam numquam alias adipisci suscipit, iure rerum vero hic eligendi atque veritatis quibusdam deleniti sit
+          facilis nisi! Dolores modi, totam asperiores autem vel. Veniam, non voluptatem ea ad provident eius nobis aspernatur explicabo assumenda aliquam odio rerum veritatis, consectetur iste quam, fugit rem culpa eaque ex earum id ducimus! Nihil nulla
+          quasi maxime error delectus fugiat aut voluptatem autem laboriosam sint ipsa nesciunt, veniam expedita dignissimos, temporibus sit quibusdam modi mollitia laborum veritatis saepe ducimus totam at molestiae. Doloribus, velit similique.</p>
+
+      </div>
+      <div id="test3" class="center">
+        <div class="title-border-bottom"><span class="scroll-tab-title">Online Classes</span></div>
+      </div>
+      <div id="test4" class="center">
+        <div class="title-border-bottom"><span class="scroll-tab-title">Life Skills</span></div>
+      </div>
 
     </div>
 
 
     </div>
 
-</nav>
+  </nav>
 
-<ul id="slide-out" class="sidenav">
-  <a class="center" href="home.html"><img
+  <ul id="slide-out" class="sidenav">
+    <a class="center" href="home.html"><img
           src="img/logo-white.svg"
           alt="triangle with all three sides equal"
           height="150px"
           width="250px" /></a>
-  <ul class="right hide-on-med-and-down">
+    <ul class="right hide-on-med-and-down">
 
-    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-    <ul id='dropdown1' class='dropdown-content'>
-      <li><a class="waves-effect black-text" href="educate.html">ETW Educate</a></li>
-      <li class="divider"></li>
-      <li><a class="waves-effect black-text" href="#!">ETW School<span class="new badge" data-badge-caption="Coming Soon iA">
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a class="waves-effect black-text" href="educate.html">ETW Educate</a></li>
+        <li class="divider"></li>
+        <li><a class="waves-effect black-text" href="#!">ETW School<span class="new badge" data-badge-caption="Coming Soon iA">
       </span></a></li>
-      <li class="divider"></li>
-      <li><a class="waves-effect black-text" href="#!">ETW Active</a></li>
-      <li class="divider"></li>
-      <li><a class="waves-effect black-text" href="#!">ETW Events<span class="new badge" data-badge-caption="Coming Soon iA">
+        <li class="divider"></li>
+        <li><a class="waves-effect black-text" href="#!">ETW Active</a></li>
+        <li class="divider"></li>
+        <li><a class="waves-effect black-text" href="#!">ETW Events<span class="new badge" data-badge-caption="Coming Soon iA">
       </span></a></li>
+      </ul>
     </ul>
-  </ul>
-  <li>
-    <div class="divider"></div>
-  </li>
-  <li><a class="waves-effect waves-black" href="home.html">Home</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect waves-black" href="home.html">Home</a></li>
 
-<li>
-    <div class="divider"></div>
-  </li>
-  <li><a class="waves-effect waves-black" href="aboutus.html">About us</a></li>
-  <li>
-    <div class="divider"></div>
-  </li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="waves-effect waves-black" href="aboutus.html">About us</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
     <li class="no-padding">
       <ul class="collapsible collapsible-accordion">
         <li>
           <a class="collapsible-header waves-effect waves-black">Our Initiatives<i class="material-icons">arrow_drop_down</i></a>
           <div class="collapsible-body">
             <ul>
-          <li><a class="waves-effect waves-black" href="educate.html">ETW Educate</a></li>
-          <li><a class="waves-effect waves-black" href="#!">ETW School<span class="new badge" data-badge-caption="Coming Soon iA">
+              <li><a class="waves-effect waves-black" href="educate.html">ETW Educate</a></li>
+              <li><a class="waves-effect waves-black" href="#!">ETW School<span class="new badge" data-badge-caption="Coming Soon iA">
           </span></a></li>
-          <li><a class="waves-effect waves-black" href="#!">ETW Active</a></li>
-          <li><a class="waves-effect waves-black" href="#!">ETW Events<span class="new badge" data-badge-caption="Coming Soon iA">
+              <li><a class="waves-effect waves-black" href="#!">ETW Active</a></li>
+              <li><a class="waves-effect waves-black" href="#!">ETW Events<span class="new badge" data-badge-caption="Coming Soon iA">
           </span></a></li>
-        </ul>
+            </ul>
           </div>
         </li>
       </ul>
@@ -180,73 +238,81 @@
 background: -webkit-linear-gradient(0deg, rgb(204, 204, 0), rgb(255, 255, 255));
 background: linear-gradient(0deg, rgb(204, 204, 0), rgb(255, 255, 255));
 ">
-<br><br>
+    <br><br>
 
-  <div class="container">
-    <h2 class="center blackish title-border-bottom-black">
+    <div class="container">
+      <h2 class="center blackish title-border-bottom-black">
       Case Studies
     </h2>
-    <div class="carousel carousel-slider center">
+      <div class="carousel carousel-slider center">
 
-    <div class="carousel-item red white-text" href="#one!">
+        <div class="carousel-item red white-text" href="#one!">
 
-   <div class="testimonials"><i style="transform: rotate(180deg);"class="material-icons">format_quote</i> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sit dignissimos laudantium, nihil reiciendis id ipsum quaerat nam nostrum! Ipsam </span><i class="material-icons">format_quote</i> <i>-yems</i></div>
-     <a class="test-btn btn modal-trigger waves-effect white grey-text darken-text-2" href="#modal1">button</a>
+          <div class="testimonials"><i style="transform: rotate(180deg);" class="material-icons">format_quote</i> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sit dignissimos laudantium, nihil reiciendis id ipsum quaerat nam nostrum! Ipsam </span>
+            <i
+              class="material-icons">format_quote</i> <i>-yems</i></div>
+          <a class="test-btn btn modal-trigger waves-effect white grey-text darken-text-2" href="#modal1">button</a>
+        </div>
+
+        <div class="carousel-item amber white-text" href="#two!">
+          <div class="testimonials"><i style="transform: rotate(180deg);" class="material-icons">format_quote</i> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sit dignissimos laudantium, nihil reiciendis id ipsum quaerat nam nostrum! Ipsam </span>
+            <i
+              class="material-icons">format_quote</i> <i> - durbz</i> </div>
+          <a class="test-btn btn modal-trigger waves-effect white grey-text darken-text-2" href="#modal2">button</a>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+          <div class="testimonials"><i style="transform: rotate(180deg);" class="material-icons">format_quote</i> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sit dignissimos laudantium, nihil reiciendis id ipsum quaerat nam nostrum! Ipsam </span>
+            <i
+              class="material-icons">format_quote</i> <i>-lol</i> </div>
+          <a class="test-btn btn modal-trigger waves-effect white grey-text darken-text-2" href="#modal3">button</a>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+          <div class="testimonials"><i style="transform: rotate(180deg);" class="material-icons">format_quote</i> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sit dignissimos laudantium, nihil reiciendis id ipsum quaerat nam nostrum! Ipsam </span>
+            <i
+              class="material-icons">format_quote</i> <i>-hu</i> </div>
+          <a class="test-btn btn modal-trigger waves-effect white grey-text darken-text-2" href="#modal4">button</a>
+        </div>
+      </div>
     </div>
 
-    <div class="carousel-item amber white-text" href="#two!">
-      <div class="testimonials"><i style="transform: rotate(180deg);"class="material-icons">format_quote</i> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sit dignissimos laudantium, nihil reiciendis id ipsum quaerat nam nostrum! Ipsam </span><i class="material-icons">format_quote</i> <i> - durbz</i> </div>
-        <a class="test-btn btn modal-trigger waves-effect white grey-text darken-text-2" href="#modal2">button</a>
+    <div id="modal1" class="modal">
+      <div class="center modal-content">
+        <h4 class="center">yems's story</h4>
+        <img width="500px" height="200px" src="img/img6.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptas labore cum eligendi voluptatem obcaecati quo, natus! Repudiandae, obcaecati, consequuntur.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
     </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <div class="testimonials"><i style="transform: rotate(180deg);"class="material-icons">format_quote</i> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sit dignissimos laudantium, nihil reiciendis id ipsum quaerat nam nostrum! Ipsam </span><i class="material-icons">format_quote</i> <i>-lol</i> </div>
-        <a class="test-btn btn modal-trigger waves-effect white grey-text darken-text-2" href="#modal3">button</a>
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4 class="center">durbz's story</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptas labore cum eligendi voluptatem obcaecati quo, natus! Repudiandae, obcaecati, consequuntur.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
     </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <div class="testimonials"><i style="transform: rotate(180deg);"class="material-icons">format_quote</i> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sit dignissimos laudantium, nihil reiciendis id ipsum quaerat nam nostrum! Ipsam </span><i class="material-icons">format_quote</i> <i>-hu</i> </div>
-        <a class="test-btn btn modal-trigger waves-effect white grey-text darken-text-2" href="#modal4">button</a>
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <h4 class="center">yems's story</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptas labore cum eligendi voluptatem obcaecati quo, natus! Repudiandae, obcaecati, consequuntur.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
     </div>
-  </div>
-  </div>
-
-  <div id="modal1" class="modal">
-    <div class="center modal-content">
-      <h4 class="center">yems's story</h4>
-      <img width="500px" height="200px"src="img/img6.jpeg" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptas labore cum eligendi voluptatem obcaecati quo, natus! Repudiandae, obcaecati, consequuntur.</p>
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <h4 class="center">yems's story</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptas labore cum eligendi voluptatem obcaecati quo, natus! Repudiandae, obcaecati, consequuntur.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
     </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-  <div id="modal2" class="modal">
-    <div class="modal-content">
-      <h4 class="center">durbz's story</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptas labore cum eligendi voluptatem obcaecati quo, natus! Repudiandae, obcaecati, consequuntur.</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-  <div id="modal3" class="modal">
-    <div class="modal-content">
-      <h4 class="center">yems's story</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptas labore cum eligendi voluptatem obcaecati quo, natus! Repudiandae, obcaecati, consequuntur.</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-  <div id="modal4" class="modal">
-    <div class="modal-content">
-      <h4 class="center">yems's story</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptas labore cum eligendi voluptatem obcaecati quo, natus! Repudiandae, obcaecati, consequuntur.</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-  <!-- <div class="slider">
+    <!-- <div class="slider">
 <ul class="slides">
   <li>
     <img src="img/img3.jpeg">
@@ -268,71 +334,71 @@ background: linear-gradient(0deg, rgb(204, 204, 0), rgb(255, 255, 255));
 </div> -->
 
 
-  <div id="faq" class="container">
-    <h2 class="center blackish title-border-bottom-black">
+    <div id="faq" class="container">
+      <h2 class="center blackish title-border-bottom-black">
       FAQ'S
     </h2>
+    </div>
+    <div class=" black-text container">
+      <ul class="collapsible expandable">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">filter_drama</i>why why why???</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+      </ul>
+
+
+    </div>
+
+    <div class="pad-top center">
+
+      <a id="contact-us-btn" href="contactus.html" class="waves-effect waves-light btn"><i class="material-icons right">info</i>Contact us</a>
+    </div>
   </div>
-  <div class=" black-text container">
-  <ul class="collapsible expandable">
-  <li>
-  <div class="collapsible-header"><i class="material-icons">filter_drama</i>why why why???</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  <li>
-  <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-  </li>
-  </ul>
-
-
-  </div>
-
-  <div class="pad-top center">
-
-    <a id="contact-us-btn" href="contactus.html" class="waves-effect waves-light btn"><i class="material-icons right">info</i>Contact us</a>
-  </div>
-</div>
   <footer class="page-footer white">
     <div class="container">
       <div class="row">

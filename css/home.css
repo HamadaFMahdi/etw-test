@@ -185,11 +185,11 @@ h5 {
 } */
 #top-banner {
   height: 100%;
-  /* background-image: url(../img/img3-min.jpeg); 
+  /* background-image: url(../img/img3-min.jpeg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;*/
+  background-attachment: fixed;
   color: white;
   z-index: 1;
 }

@@ -1,13 +1,7 @@
 (function($) {
   $(function() {
 
-      var toastTrigged = false;
-      $("#men").click(function(){
-        if($( document ).width()<1000 && toastTrigged==false){
-            M.toast({html: 'You can also swipe in from the left side of your screen to reveal the menu.', classes: 'rounded'});
-            toastTrigged=true;
-          }
-        });
+      
 
 
 
